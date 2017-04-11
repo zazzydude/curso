@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Sitio con responsive web desing en HTML5, CSS3 y JQuery</title>
+	<meta charset="utf-8"/>
+	<meta name="description" content="Bienvenido a mi portafolio" />
+	<meta name "viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="css/flexslider.css"/>
+	<link rel="stylesheet" href="css/estilos.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script>
+		$(window).load(function(){
+			$(".flexslider").flexslider();
+		});
+	</script>
+
+
+</head>
+<body>
+	<header>
+		<h1>
+			<a href="index.html"></a>
+				<img class="fade" alt="Proyecto 2" src="img/pentagram.png" />
+		</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio </a></li>
+				<li><a href="acerca.html">Acerca </a></li>
+				<li><a href="servicios.html">Servicios </a></li>
+				<li><a href="trabajos.html">Trabajos </a></li>
+				<li><a href="contacto.html">Contacto </a></li>
+			</ul>	
+		</nav>	
+	</header>
+
+	<section id="contenido">
+		<section id="principal">
+			<article id="galeria-inicio">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<a href="http://bextlan.com"><img src="img/slide-0.png"/></a>
+							<p class="flex-caption"> El-a'awer. talbis iblis.gulshan-i raz. zat-i shaitan.
+							</p>
+						</li>
+						<li>
+							<img src="img/slide-1.png"/>
+							<p class="flex-caption">Curso HTML 5</p>
+						</li>	
+						<li>
+							<img src="img/slide-2.png"/>
+						</li>
+						<li>
+							<a href="https://www.facebook.com/jerry.spawn"><img src="img/slide-3.png"/></a>
+							<p class="flex-caption">Curso PHP</p>
+						</li>
+
+					</ul>
+				</div>
+			</article>
+		</section>
+		<aside>
+			widgets Sociales
+		</aside>
+
+	</section>
+	<footer>
+		Aprendiendo HTML5, CSS3, JQuery y Responsive web desing  <a rel ="autor" href="https://www.facebook.com/jerry.spawn" target ="_blank">@Jerry</a>
+	</footer>
+</body>
+</html>
+
+
