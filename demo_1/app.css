@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+
+.top_bar {
+  overflow: hidden;
+}
+
+
+.logo {
+  float: left;
+}
+  .logo-img {
+    width: 80px;
+  }
+  .logo-text {
+    display: inline-block;
+  }
+
+
+.menu {
+  float: right;
+  list-style-type: none;
+}
+  .menu-item {
+    display: inline;
+    padding: 8px;
+  }
+
+
+.nav_menu {
+  list-style-type: none;
+}
+  .nav_menu:first-child {
+    padding-left: 0;
+  }
+  .nav_menu_item {
+    display: inline;
+    padding: 5px 12px;
+  }
+
+
+main {
+  float: left;
+  width: 70%;
+}
+
+aside {
+  float: right;
+  width: 20%
+}

@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 80%;
+  float: left;
+}
+
+.side > h1:first {
+  width: 20%;
+  float: right;
+}
